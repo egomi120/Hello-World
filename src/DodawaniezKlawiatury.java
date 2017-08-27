@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class DodawaniezKlawiatury {
 
+    // static instant variable
+    private static int sumaLiczb;
+
+    // może być dostępna ze statycznej metody.
     public static void main(String args[]){
 
         System.out.print("Podaj liczbę nr1: ");
@@ -16,6 +20,8 @@ public class DodawaniezKlawiatury {
 
         System.out.println("Liczba n1: " + liczba1);
         System.out.println("Liczba n2: " + liczba2);
+        sumaLiczb = liczba1 + liczba2;
+        System.out.println("Suma = "+ sumaLiczb);
 
     }
 }
