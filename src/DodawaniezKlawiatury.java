@@ -18,10 +18,13 @@ public class DodawaniezKlawiatury {
         Scanner sc2 = new Scanner(System.in);
         int liczba2 = sc2.nextInt();
 
-        System.out.println("Liczba n1: " + liczba1);
-        System.out.println("Liczba n2: " + liczba2);
+        System.out.println("Liczba nr1: " + liczba1);
+        System.out.println("Liczba nr2: " + liczba2);
+
         sumaLiczb = liczba1 + liczba2;
         System.out.println("Suma = "+ sumaLiczb);
 
+        int roznicaLiczb = liczba1 - liczba2;
+        System.out.println("Różnica (nr1-nr2)" + roznicaLiczb);
     }
 }
