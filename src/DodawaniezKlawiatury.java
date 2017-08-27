@@ -29,7 +29,7 @@ public class DodawaniezKlawiatury {
 
         int iloczynLiczb;
         iloczynLiczb = liczba1 * liczba2;
-        System.out.println("Iloczyn = " + iloczynLiczb);
+        System.out.println("Iloczyn =  " + iloczynLiczb);
 
     }
 }
