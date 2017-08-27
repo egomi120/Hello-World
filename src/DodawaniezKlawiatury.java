@@ -25,6 +25,11 @@ public class DodawaniezKlawiatury {
         System.out.println("Suma = "+ sumaLiczb);
 
         int roznicaLiczb = liczba1 - liczba2;
-        System.out.println("Różnica (nr1-nr2)" + roznicaLiczb);
+        System.out.println("Różnica (nr1-nr2) = " + roznicaLiczb);
+
+        int iloczynLiczb;
+        iloczynLiczb = liczba1 * liczba2;
+        System.out.println("Iloczyn = " + iloczynLiczb);
+
     }
 }
