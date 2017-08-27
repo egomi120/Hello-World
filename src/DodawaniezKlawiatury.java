@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class dodawaniezKlawiatury{
+public class DodawaniezKlawiatury {
 
     public static void main(String args[]){
 
